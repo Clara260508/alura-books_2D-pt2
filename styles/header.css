@@ -57,3 +57,19 @@
 .container__botao {
     display: none;
 }
+
+@media screen and (min-width: 1014px) { /*inserido na aula 00}
+.container_titulo,
+.container_titulo-negrito{
+    font-family: var(--fonte-secundario);
+    font-size: 30px;
+}
+.container_titulo{
+    font-weight:400;
+    dislplay: block;
+}
+.container__titulo-negrito{
+    font-weight:700;
+
+
+                                       
