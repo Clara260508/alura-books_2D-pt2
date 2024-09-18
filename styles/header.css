@@ -57,6 +57,9 @@
 .container__botao {
     display: none;
 }
+.container__texto
+     display:none;
+}
 
 @media screen and (min-width: 1014px) { /*inserido na aula 00}
 .container_titulo,
@@ -70,6 +73,28 @@
 }
 .container__titulo-negrito{
     font-weight:700;
+}
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        displlay: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+        padding-right: 30px;
+    }
+
+    .opções {
+        margin-right: auto;
+     }
+
+
+    .container__texto {
+        display: block;
+     }
+}
+
+
 
 
                                        
