@@ -84,9 +84,16 @@
         padding-right: 30px;
     }
 
-    .opções {
+    .opcoes {
         margin-right: auto;
      }
+    
+    {.opcoes__item{
+        padding: 0 1em;
+        text-transform:uppercase;
+    }
+
+    
 
 
     .container__texto {
